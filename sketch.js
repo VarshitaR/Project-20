@@ -7,15 +7,15 @@ var mouse, mouseImage1, mouseImage2, mouseImage3,mouseImage4;
 
 function preload() {
 
-    backgroundImage = loadImage("images/garden.png");
+    backgroundImage = loadImage("garden.png");
 
-    catImage1 = loadAnimation("images/cat1.png");
-    catApp = loadAnimation("images/cat2.png","images/cat3.png");
-    catImage2 = loadAnimation("images/cat4.png");
+    catImage1 = loadAnimation("cat1.png");
+    catApp = loadAnimation("cat2.png","cat3.png");
+    catImage2 = loadAnimation("cat4.png");
 
-    mouseImage1 = loadAnimation("images/mouse1.png");
-    mouseTease = loadAnimation("images/mouse2.png","images/mouse3.png");
-    mouseImage2 = loadAnimation("images/mouse4.png");
+    mouseImage1 = loadAnimation("mouse1.png");
+    mouseTease = loadAnimation("mouse2.png","mouse3.png");
+    mouseImage2 = loadAnimation("mouse4.png");
     
 
 }
